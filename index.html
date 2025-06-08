@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR" >
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Espetinho de Morango com Chocolate</title>
-  <link rel="stylesheet" href="styles.css" />
-   <link rel="icon" href="morango (2).png">
+  <link rel="icon" href="morango (2).png">
 </head>
 <body>
   <header>
@@ -17,7 +16,31 @@
 
   <main class="container">
     <section class="card imagem-card">
-      <img src="https://images.unsplash.com/photo-1576402187878-08f886ec0085?auto=format&fit=crop&w=800&q=80" alt="Torta de Morango" />
+      <!-- Carrossel de Imagens -->
+      <div class="carrossel">
+        <div class="slides-container">
+          <div class="slide">
+            <img src="espetinho-pronto.jpg" alt="Espetinhos finalizados">
+          </div>
+          <div class="slide">
+            <img src="preparacao.jpg" alt="Preparando os espetinhos">
+          </div>
+          <div class="slide">
+            <img src="decoracao.jpg" alt="Decorando com granulado">
+          </div>
+        </div>
+        
+        <!-- Botões de navegação -->
+        <button class="carrossel-btn prev">❮</button>
+        <button class="carrossel-btn next">❯</button>
+      </div>
+      
+      <!-- Indicadores -->
+      <div class="indicadores">
+        <span class="indicador"></span>
+        <span class="indicador"></span>
+        <span class="indicador"></span>
+      </div>
     </section>
 
     <section class="card detalhes-card">
@@ -32,7 +55,7 @@
       <h2>Modo de Preparo</h2>
       <ol>
         <li>Espete os morangos nos palitos.</li>
-        <li>Derreta o chocolate e mergulhe os morangos até a metade ou inteiro( Sua preferencia)</li>
+        <li>Derreta o chocolate e mergulhe os morangos até a metade ou inteiro (Sua preferência)</li>
         <li>Deixe secar em papel manteiga.</li>
         <li>Se quiser, passe no granulado antes de secar ou castanha picada ou coco ralado.</li>
         <li>Depois só servir</li>
@@ -52,6 +75,5 @@
   <footer>
     <p>&copy; 2025 Delícias de Morango</p>
   </footer>
-  <script src="script.js"></script>
 </body>
 </html>
